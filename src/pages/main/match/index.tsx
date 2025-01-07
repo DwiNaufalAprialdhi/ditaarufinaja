@@ -12,7 +12,7 @@ export default function index() {
             <>
                   <ViewMobileMain>
                         <main className='relative z-20'>
-                              <section className='w-full h-[403px] relative'>
+                              <section className='w-full h-[403px] lg:translate-x-20 translate-x-0 relative'>
                                     <IconLoveCircle className='absolute -top-[10px] mt-[23px] left-[120px] z-30' />
                                     <div className='w-[160px] h-[240px] rounded-[15px] absolute bottom-[20px] left-[60px] -rotate-[10deg] z-20 overflow-hidden bounce1 shadow-2xl'>
                                           <Image src='/assets/images/discover-1.jpeg' width={160} height={240} className='rounded-[15px] w-full h-full object-cover' alt={'discover'} />

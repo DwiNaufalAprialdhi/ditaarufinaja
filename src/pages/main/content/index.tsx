@@ -13,6 +13,10 @@ import MainContent from '@/components/ui/content/MainContent'
 
 export default function Content() {
 
+      const toMatch = () => {
+            window.location.href = '/main/match'
+      }
+
       return (
             <>
                   <ViewMobile>
@@ -64,7 +68,7 @@ export default function Content() {
                               {/* Action */}
                               <Action>
                                     <Dislike />
-                                    <Match />
+                                    <Match onClick={toMatch} />
                                     <Like />
                               </Action>
 

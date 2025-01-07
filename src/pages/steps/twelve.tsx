@@ -586,77 +586,77 @@ export default function Twelve() {
                                           {/* Age */}
                                           <div ref={ageRef} onClick={handleAge} className='flex items-center justify-between py-2 px-[10px] border-b border-[#D9D9D9] cursor-pointer hover:border-brand duration-200 group'>
                                                 <h2 className='font-medium text-base leading-[24px] group-hover:text-brand'>Usia</h2>
-                                                <svg className='w-[9px] h-max text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className='w-[9px] h-auto text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                       <path d="M0.355 12.355L2 14L9 7L2 0L0.355 1.645L5.69833 7L0.355 12.355Z" fill="currentColor" />
                                                 </svg>
                                           </div>
                                           {/* Status */}
                                           <div ref={statusRef} onClick={handleStatus} className='flex items-center justify-between py-2 px-[10px] border-b border-[#D9D9D9] cursor-pointer hover:border-brand duration-200 group'>
                                                 <h2 className='font-medium text-base leading-[24px] group-hover:text-brand'>Status</h2>
-                                                <svg className='w-[9px] h-max text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className='w-[9px] h-auto text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                       <path d="M0.355 12.355L2 14L9 7L2 0L0.355 1.645L5.69833 7L0.355 12.355Z" fill="currentColor" />
                                                 </svg>
                                           </div>
                                           {/* Job */}
                                           <div ref={jobRef} onClick={handleJob} className='flex items-center justify-between py-2 px-[10px] border-b border-[#D9D9D9] cursor-pointer hover:border-brand duration-200 group'>
                                                 <h2 className='font-medium text-base leading-[24px] group-hover:text-brand'>Pekerjaan</h2>
-                                                <svg className='w-[9px] h-max text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className='w-[9px] h-auto text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                       <path d="M0.355 12.355L2 14L9 7L2 0L0.355 1.645L5.69833 7L0.355 12.355Z" fill="currentColor" />
                                                 </svg>
                                           </div>
                                           {/* Etnis */}
                                           <div ref={etnisRef} onClick={handleEtnis} className='flex items-center justify-between py-2 px-[10px] border-b border-[#D9D9D9] cursor-pointer hover:border-brand duration-200 group'>
                                                 <h2 className='font-medium text-base leading-[24px] group-hover:text-brand'>Etnis</h2>
-                                                <svg className='w-[9px] h-max text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className='w-[9px] h-auto text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                       <path d="M0.355 12.355L2 14L9 7L2 0L0.355 1.645L5.69833 7L0.355 12.355Z" fill="currentColor" />
                                                 </svg>
                                           </div>
                                           {/* Domisili */}
                                           <div ref={domisiliRef} onClick={handleDomisili} className='flex items-center justify-between py-2 px-[10px] border-b border-[#D9D9D9] cursor-pointer hover:border-brand duration-200 group'>
                                                 <h2 className='font-medium text-base leading-[24px] group-hover:text-brand'>Domisili saat ini</h2>
-                                                <svg className='w-[9px] h-max text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className='w-[9px] h-auto text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                       <path d="M0.355 12.355L2 14L9 7L2 0L0.355 1.645L5.69833 7L0.355 12.355Z" fill="currentColor" />
                                                 </svg>
                                           </div>
                                           {/* Study */}
                                           <div ref={studyRef} onClick={handleStudy} className='flex items-center justify-between py-2 px-[10px] border-b border-[#D9D9D9] cursor-pointer hover:border-brand duration-200 group'>
                                                 <h2 className='font-medium text-base leading-[24px] group-hover:text-brand'>Pendidikan Terakhir</h2>
-                                                <svg className='w-[9px] h-max text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className='w-[9px] h-auto text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                       <path d="M0.355 12.355L2 14L9 7L2 0L0.355 1.645L5.69833 7L0.355 12.355Z" fill="currentColor" />
                                                 </svg>
                                           </div>
                                           {/* Height & Weight */}
                                           <div ref={heightRef} onClick={handleHeight} className='flex items-center justify-between py-2 px-[10px] border-b border-[#D9D9D9] cursor-pointer hover:border-brand duration-200 group'>
                                                 <h2 className='font-medium text-base leading-[24px] group-hover:text-brand'>Tinggi dan berat badan</h2>
-                                                <svg className='w-[9px] h-max text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className='w-[9px] h-auto text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                       <path d="M0.355 12.355L2 14L9 7L2 0L0.355 1.645L5.69833 7L0.355 12.355Z" fill="currentColor" />
                                                 </svg>
                                           </div>
                                           {/* Skin */}
                                           <div ref={skinRef} onClick={handleSkin} className='flex items-center justify-between py-2 px-[10px] border-b border-[#D9D9D9] cursor-pointer hover:border-brand duration-200 group'>
                                                 <h2 className='font-medium text-base leading-[24px] group-hover:text-brand'>Warna Kulit</h2>
-                                                <svg className='w-[9px] h-max text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className='w-[9px] h-auto text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                       <path d="M0.355 12.355L2 14L9 7L2 0L0.355 1.645L5.69833 7L0.355 12.355Z" fill="currentColor" />
                                                 </svg>
                                           </div>
                                           {/* Hair */}
                                           <div ref={hairRef} onClick={handleHair} className='flex items-center justify-between py-2 px-[10px] border-b border-[#D9D9D9] cursor-pointer hover:border-brand duration-200 group'>
                                                 <h2 className='font-medium text-base leading-[24px] group-hover:text-brand'>Jenis Rambut</h2>
-                                                <svg className='w-[9px] h-max text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className='w-[9px] h-auto text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                       <path d="M0.355 12.355L2 14L9 7L2 0L0.355 1.645L5.69833 7L0.355 12.355Z" fill="currentColor" />
                                                 </svg>
                                           </div>
                                           {/* Face */}
                                           <div ref={faceRef} onClick={handleFace} className='flex items-center justify-between py-2 px-[10px] border-b border-[#D9D9D9] cursor-pointer hover:border-brand duration-200 group'>
                                                 <h2 className='font-medium text-base leading-[24px] group-hover:text-brand'>Bentuk Wajah</h2>
-                                                <svg className='w-[9px] h-max text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className='w-[9px] h-auto text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                       <path d="M0.355 12.355L2 14L9 7L2 0L0.355 1.645L5.69833 7L0.355 12.355Z" fill="currentColor" />
                                                 </svg>
                                           </div>
                                           {/* Glasses */}
                                           <div ref={glassesRef} onClick={handleGlasses} className='flex items-center justify-between py-2 px-[10px] border-b border-[#D9D9D9] cursor-pointer hover:border-brand duration-200 group'>
                                                 <h2 className='font-medium text-base leading-[24px] group-hover:text-brand'>Berkacamata</h2>
-                                                <svg className='w-[9px] h-max text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className='w-[9px] h-auto text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                       <path d="M0.355 12.355L2 14L9 7L2 0L0.355 1.645L5.69833 7L0.355 12.355Z" fill="currentColor" />
                                                 </svg>
                                           </div>

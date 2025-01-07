@@ -149,13 +149,13 @@ export default function Three() {
                                           </div>
                                           <div ref={prepareRef} onClick={handlePrepare} className='flex items-center justify-between py-2 px-[10px] border-b border-[#D9D9D9] cursor-pointer hover:border-brand duration-200 group'>
                                                 <h2 className='font-medium text-base leading-[24px] group-hover:text-brand'>Kesiapan Menikah</h2>
-                                                <svg className='w-[9px] h-max text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className='w-[9px] h-auto text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                       <path d="M0.355 12.355L2 14L9 7L2 0L0.355 1.645L5.69833 7L0.355 12.355Z" fill="currentColor" />
                                                 </svg>
                                           </div>
                                           <div ref={yearRef} onClick={handleYear} className='flex items-center justify-between py-2 px-[10px] border-b border-[#D9D9D9] cursor-pointer hover:border-brand duration-200 group'>
                                                 <h2 className='font-medium text-base leading-[24px] group-hover:text-brand'>Target Tahun Menikah</h2>
-                                                <svg className='w-[9px] h-max text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className='w-[9px] h-auto text-zinc-800 group-hover:text-brand duration-200' viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                       <path d="M0.355 12.355L2 14L9 7L2 0L0.355 1.645L5.69833 7L0.355 12.355Z" fill="currentColor" />
                                                 </svg>
                                           </div>

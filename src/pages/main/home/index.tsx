@@ -166,7 +166,7 @@ export default function index() {
                                           <ItemWhatsNew
                                                 key={index}
                                                 link='#'
-                                                images='/assets/images/discover-1.JPEG'
+                                                images='/assets/images/banner-1.svg'
                                                 title='Remaja di Blitar menikahi 4 gadis
                                                 sekaligus!'
                                                 like='14'
